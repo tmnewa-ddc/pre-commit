@@ -11,6 +11,8 @@ $ brew install pre-commit
 # run
 $ pre-commit run
 
-# install to git hooks
+# install hook environments and git hooks 'pre-commit'
 $ pre-commit install -f --install-hooks
+# and the others
+$ pre-commit install -f -t pre-push
 ```
