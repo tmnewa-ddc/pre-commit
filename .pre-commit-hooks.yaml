@@ -4,3 +4,9 @@
   files: '\.go$'
   language: 'script'
   description: "Runs `go test`"
+- id: go-unit-tests-all
+  name: 'go-unit-tests-all'
+  entry: go/unit-tests-all.sh
+  files: '\.go$'
+  language: 'script'
+  description: "Runs `go test all`"
