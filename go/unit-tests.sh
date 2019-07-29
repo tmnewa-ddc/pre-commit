@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+go clean -testcache
 go test -short -v -p=1 -count=1 ./...
 returncode=$?
 
