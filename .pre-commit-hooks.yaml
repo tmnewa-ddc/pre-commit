@@ -10,3 +10,9 @@
   files: '\.go$'
   language: 'script'
   description: "Runs `go test all`"
+- id: python-unit-tests
+  name: 'python-unit-test'
+  entry: python/unit-tests.sh
+  files: '\.py$'
+  language: 'script'
+  description: "Runs `pytest`"
