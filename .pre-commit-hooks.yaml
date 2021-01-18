@@ -16,3 +16,9 @@
   files: '\.py$'
   language: 'script'
   description: "Runs `pytest`"
+- id: django-tests
+  name: 'django-test'
+  entry: python/django-tests.sh
+  files: '\.py$'
+  language: 'script'
+  description: "Runs `pytest`"
